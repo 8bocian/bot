@@ -213,3 +213,5 @@ if __name__ == "__main__":
             cv2.imshow('Hook', cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 cv2.destroyAllWindows()
+
+#TODO: TRZEBA JAKOS WYKRYWAC SPLAWIK CZY SIE ZANURZA, OGARNAC MINIGIERKE I CHODZENIE
